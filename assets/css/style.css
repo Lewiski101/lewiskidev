@@ -75,7 +75,6 @@ body {
 }
 
 
-
 .heading,
 input,
 select,
@@ -924,7 +923,7 @@ html {
 }
 
 .main-header .logo img {
-    width: 40px;
+    width: 70px; /* Updated from 40px to 80px to make it 2x bigger */
 }
 
 .main-header .nice-select .current {
@@ -1093,6 +1092,17 @@ html {
     width: 30px;
     display: block;
     margin: 5px 0;
+}
+
+.logo {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -1302,6 +1312,10 @@ html {
 
 .about-social ul li a {
     font-size: 20px;
+}
+
+.about-social ul li a i {
+    font-size: 25px; /* Updated from 20px to 30px to make it 1.5 times bigger */
 }
 
 .about-image-part .dot-shape {
